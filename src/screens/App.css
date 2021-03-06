@@ -63,6 +63,61 @@ button {
   margin: 0 auto;
 }
 
+/* Photo.js */
+
+.container {
+  height: 200px;
+  width: 200px;
+  padding-top: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.705);
+  
+  border: 1px solid #9c9b9b;
+}
+
+.img-holder {
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  margin-top: 1rem;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.image-upload {
+  margin: auto;
+  width: 180px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+  font-family: Raleway-Regular;
+  font-size: 14px;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.label {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#input[type="file"]{
+  display: none;
+}
+
 /* User.js */
 
 h1,h2,h3 {
